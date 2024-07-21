@@ -1,0 +1,1 @@
+/home/suke/chicken_ws/src/simulation/chiken_simulator/launch/chicken_simulator_bringup.launch.py

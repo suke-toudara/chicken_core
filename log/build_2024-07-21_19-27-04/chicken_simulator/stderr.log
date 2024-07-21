@@ -1,0 +1,8 @@
+[01m[K/home/suke/chicken_ws/src/simulation/chiken_simulator/src/chicken_simulator.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KChicken_utils/quaternion_utils.hpp: そのようなファイルやディレクトリはありません
+    2 | #include [01;31m[K"Chicken_utils/quaternion_utils.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/chicken_simulator.dir/build.make:76: CMakeFiles/chicken_simulator.dir/src/chicken_simulator.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/chicken_simulator.dir/all] エラー 2
+gmake[1]: *** 未完了のジョブを待っています....
+gmake: *** [Makefile:146: all] エラー 2

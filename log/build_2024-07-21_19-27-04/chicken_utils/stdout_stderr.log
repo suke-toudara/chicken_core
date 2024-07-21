@@ -1,0 +1,27 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/quaternion_utils.dir/src/quaternion_utils.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libquaternion_utils.so[0m
+[100%] Built target quaternion_utils
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/include/chicken_utils/quaternion_utils.hpp
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/library_path.sh
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/library_path.dsv
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/lib/libquaternion_utils.so
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/ament_index/resource_index/package_run_dependencies/chicken_utils
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/ament_index/resource_index/parent_prefix_path/chicken_utils
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/ament_prefix_path.sh
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/ament_prefix_path.dsv
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/path.sh
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/path.dsv
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.bash
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.sh
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.zsh
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.dsv
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/package.dsv
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/ament_index/resource_index/packages/chicken_utils
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/chicken_utilsConfig.cmake
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/chicken_utilsConfig-version.cmake
+-- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/package.xml

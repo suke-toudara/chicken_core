@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/suke/chicken_ws/build/chicken_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_ws/install/depth_anything_v2_ros2:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_ws/build/chicken_utils -- -j20 -l20
+[0.165s] [ 50%] [32mBuilding CXX object CMakeFiles/quaternion_utils.dir/src/quaternion_utils.cpp.o[0m
+[2.622s] [100%] [32m[1mLinking CXX shared library libquaternion_utils.so[0m
+[2.779s] [100%] Built target quaternion_utils
+[2.787s] Invoked command in '/home/suke/chicken_ws/build/chicken_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_ws/install/depth_anything_v2_ros2:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_ws/build/chicken_utils -- -j20 -l20
+[2.821s] Invoking command in '/home/suke/chicken_ws/build/chicken_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_ws/install/depth_anything_v2_ros2:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_ws/build/chicken_utils
+[2.832s] -- Install configuration: "Release"
+[2.833s] -- Execute custom install script
+[2.834s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/include/chicken_utils/quaternion_utils.hpp
+[2.853s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/library_path.sh
+[2.869s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/library_path.dsv
+[2.883s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/lib/libquaternion_utils.so
+[2.900s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/ament_index/resource_index/package_run_dependencies/chicken_utils
+[2.917s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/ament_index/resource_index/parent_prefix_path/chicken_utils
+[2.923s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/ament_prefix_path.sh
+[2.928s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/ament_prefix_path.dsv
+[2.936s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/path.sh
+[2.942s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/environment/path.dsv
+[2.948s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.bash
+[2.956s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.sh
+[2.962s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.zsh
+[2.968s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/local_setup.dsv
+[2.974s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/package.dsv
+[2.981s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/ament_index/resource_index/packages/chicken_utils
+[2.987s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.992s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.998s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[3.004s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/chicken_utilsConfig.cmake
+[3.009s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/cmake/chicken_utilsConfig-version.cmake
+[3.015s] -- Symlinking: /home/suke/chicken_ws/install/chicken_utils/share/chicken_utils/package.xml
+[3.023s] Invoked command in '/home/suke/chicken_ws/build/chicken_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_ws/install/depth_anything_v2_ros2:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_ws/build/chicken_utils

@@ -1,0 +1,10 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/ExpResetMcl2.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Pose.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/OdomModel.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Mcl.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Particle.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/LikelihoodFieldMap.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Scan.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/emcl2_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable emcl2_node[0m
+[100%] Built target emcl2_node

@@ -1,0 +1,11 @@
+[0.158s] Invoking command in '/home/suke/chicken_ws/build/emcl2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_ws/install/depth_anything_v2_ros2:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_ws/build/emcl2 -- -j20 -l20
+[0.196s] [ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/ExpResetMcl2.cpp.o[0m
+[0.196s] [ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Pose.cpp.o[0m
+[0.196s] [ 33%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/OdomModel.cpp.o[0m
+[0.196s] [ 44%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Mcl.cpp.o[0m
+[0.196s] [ 55%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Particle.cpp.o[0m
+[0.199s] [ 66%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/LikelihoodFieldMap.cpp.o[0m
+[0.199s] [ 88%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/Scan.cpp.o[0m
+[0.200s] [ 88%] [32mBuilding CXX object CMakeFiles/emcl2_node.dir/src/emcl2_node.cpp.o[0m
+[0.217s] [100%] [32m[1mLinking CXX executable emcl2_node[0m
+[0.363s] [100%] Built target emcl2_node
