@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/src/localization/emcl2_ros2/test/test_gui.bash
+/home/suke/chicken_core/src/localization/emcl2_ros2/test/test_gui.bash

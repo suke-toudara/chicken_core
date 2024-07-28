@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.bash
+/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.bash

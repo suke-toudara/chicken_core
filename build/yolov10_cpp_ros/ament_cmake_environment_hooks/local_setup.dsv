@@ -1,0 +1,2 @@
+source;share/yolov10_cpp_ros/environment/ament_prefix_path.sh
+source;share/yolov10_cpp_ros/environment/path.sh

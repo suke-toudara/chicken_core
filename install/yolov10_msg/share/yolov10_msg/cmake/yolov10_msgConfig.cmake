@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/yolov10_msg/ament_cmake_core/yolov10_msgConfig.cmake

@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/yolov10_msg/rosidl_generator_cpp/yolov10_msg/msg/bounding_box2_d.hpp

@@ -1,0 +1,1 @@
+/home/suke/chicken_core/src/perception/yolov10_msg/msg/KeyPoint3DArray.msg

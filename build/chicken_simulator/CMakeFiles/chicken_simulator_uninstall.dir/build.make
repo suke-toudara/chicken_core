@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suke/chicken_ws/src/simulation/chiken_simulator
+CMAKE_SOURCE_DIR = /home/suke/chicken_core/src/simulation/chicken_simulator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suke/chicken_ws/build/chicken_simulator
+CMAKE_BINARY_DIR = /home/suke/chicken_core/build/chicken_simulator
 
 # Utility rule file for chicken_simulator_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/chicken_simulator_uninstall.dir/compiler_depend.make
 include CMakeFiles/chicken_simulator_uninstall.dir/progress.make
 
 CMakeFiles/chicken_simulator_uninstall:
-	/usr/bin/cmake -P /home/suke/chicken_ws/build/chicken_simulator/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/suke/chicken_core/build/chicken_simulator/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 chicken_simulator_uninstall: CMakeFiles/chicken_simulator_uninstall
 chicken_simulator_uninstall: CMakeFiles/chicken_simulator_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/chicken_simulator_uninstall.dir/clean:
 .PHONY : CMakeFiles/chicken_simulator_uninstall.dir/clean
 
 CMakeFiles/chicken_simulator_uninstall.dir/depend:
-	cd /home/suke/chicken_ws/build/chicken_simulator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suke/chicken_ws/src/simulation/chiken_simulator /home/suke/chicken_ws/src/simulation/chiken_simulator /home/suke/chicken_ws/build/chicken_simulator /home/suke/chicken_ws/build/chicken_simulator /home/suke/chicken_ws/build/chicken_simulator/CMakeFiles/chicken_simulator_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suke/chicken_core/build/chicken_simulator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suke/chicken_core/src/simulation/chicken_simulator /home/suke/chicken_core/src/simulation/chicken_simulator /home/suke/chicken_core/build/chicken_simulator /home/suke/chicken_core/build/chicken_simulator /home/suke/chicken_core/build/chicken_simulator/CMakeFiles/chicken_simulator_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chicken_simulator_uninstall.dir/depend
 

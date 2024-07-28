@@ -1,0 +1,15 @@
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/package_run_dependencies/yolov10_cpp_ros
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/parent_prefix_path/yolov10_cpp_ros
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/ament_prefix_path.sh
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/ament_prefix_path.dsv
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/path.sh
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/path.dsv
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.bash
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.sh
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.zsh
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.dsv
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/package.dsv
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/packages/yolov10_cpp_ros
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/cmake/yolov10_cpp_rosConfig.cmake
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/cmake/yolov10_cpp_rosConfig-version.cmake
+/home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/package.xml

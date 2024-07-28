@@ -1,0 +1,9 @@
+In file included from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:19[m[K,
+                 from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:[m[K In member function ‘[01m[Kvoid dwa_ros2::DWA::obstacleCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:45:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   45 |         for (int i = 0; [01;35m[Ki < msg->data.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K

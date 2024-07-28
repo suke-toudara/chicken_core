@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/suke/chicken_ws/src/simulation/chiken_simulator/src/chicken_simulator.cpp" "CMakeFiles/chicken_simulator.dir/src/chicken_simulator.cpp.o" "gcc" "CMakeFiles/chicken_simulator.dir/src/chicken_simulator.cpp.o.d"
+  "/home/suke/chicken_core/src/simulation/chicken_simulator/src/chicken_simulator.cpp" "CMakeFiles/chicken_simulator.dir/src/chicken_simulator.cpp.o" "gcc" "CMakeFiles/chicken_simulator.dir/src/chicken_simulator.cpp.o.d"
   )
 
 # Targets to which this target links.

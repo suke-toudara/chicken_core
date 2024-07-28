@@ -1,0 +1,48 @@
+[0.711s] Invoking command in '/home/suke/chicken_core/build/depth_anything_v2_ros2': PYTHONPATH=/home/suke/chicken_core/build/depth_anything_v2_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/depth_anything_v2_ros2/build --no-deps symlink_data
+[0.873s] running develop
+[0.873s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.873s]   warnings.warn(
+[0.980s] running egg_info
+[0.980s] creating depth_anything_v2_ros2.egg-info
+[0.981s] writing depth_anything_v2_ros2.egg-info/PKG-INFO
+[0.981s] writing dependency_links to depth_anything_v2_ros2.egg-info/dependency_links.txt
+[0.981s] writing entry points to depth_anything_v2_ros2.egg-info/entry_points.txt
+[0.981s] writing requirements to depth_anything_v2_ros2.egg-info/requires.txt
+[0.981s] writing top-level names to depth_anything_v2_ros2.egg-info/top_level.txt
+[0.981s] writing manifest file 'depth_anything_v2_ros2.egg-info/SOURCES.txt'
+[0.982s] reading manifest file 'depth_anything_v2_ros2.egg-info/SOURCES.txt'
+[0.982s] writing manifest file 'depth_anything_v2_ros2.egg-info/SOURCES.txt'
+[0.983s] running build_ext
+[0.983s] Creating /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth-anything-v2-ros2.egg-link (link to .)
+[0.984s] Installing depth_anything_v2_ros2 script to /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2
+[0.984s] 
+[0.984s] Installed /home/suke/chicken_core/build/depth_anything_v2_ros2
+[0.984s] running symlink_data
+[0.984s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/share/ament_index
+[0.984s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/share/ament_index/resource_index
+[0.984s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/share/ament_index/resource_index/packages
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/resource/depth_anything_v2_ros2 -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/ament_index/resource_index/packages
+[0.985s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2
+[0.985s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dpt.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2
+[0.985s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/attention.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/mlp.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/block.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/__init__.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/patch_embed.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/swiglu_ffn.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/layer_scale.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers/drop_path.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[0.985s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util/blocks.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util/transform.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/package.xml -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2
+[0.985s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/launch
+[0.985s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/launch/default.launch.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/launch
+[0.986s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/models
+[0.986s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/models/depth_anything_v2_vits.pth -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/models
+[0.986s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/config
+[0.986s] symbolically linking /home/suke/chicken_core/build/depth_anything_v2_ros2/config/params.yaml -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/config
+[1.021s] Invoked command in '/home/suke/chicken_core/build/depth_anything_v2_ros2' returned '0': PYTHONPATH=/home/suke/chicken_core/build/depth_anything_v2_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/depth_anything_v2_ros2/build --no-deps symlink_data

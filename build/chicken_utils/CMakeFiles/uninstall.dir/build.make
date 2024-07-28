@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suke/chicken_ws/src/simulation/chicken_utils
+CMAKE_SOURCE_DIR = /home/suke/chicken_core/src/simulation/chicken_utils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suke/chicken_ws/build/chicken_utils
+CMAKE_BINARY_DIR = /home/suke/chicken_core/build/chicken_utils
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/suke/chicken_ws/build/chicken_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suke/chicken_ws/src/simulation/chicken_utils /home/suke/chicken_ws/src/simulation/chicken_utils /home/suke/chicken_ws/build/chicken_utils /home/suke/chicken_ws/build/chicken_utils /home/suke/chicken_ws/build/chicken_utils/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suke/chicken_core/build/chicken_utils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suke/chicken_core/src/simulation/chicken_utils /home/suke/chicken_core/src/simulation/chicken_utils /home/suke/chicken_core/build/chicken_utils /home/suke/chicken_core/build/chicken_utils /home/suke/chicken_core/build/chicken_utils/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

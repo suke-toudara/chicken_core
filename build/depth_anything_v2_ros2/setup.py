@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/src/perception/depth_anything_v2_ros2/setup.py
+/home/suke/chicken_core/src/perception/depth_anything_v2_ros2/setup.py

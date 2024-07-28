@@ -34,7 +34,7 @@ int main(int argc, char * argv[])
   std::vector<rclcpp_components::NodeInstanceWrapper> node_wrappers;
 
   std::string library_name = "libchicken_simulator.so";
-  std::string class_name = "rclcpp_components::NodeFactoryTemplate<chickenSimulator>";
+  std::string class_name = "rclcpp_components::NodeFactoryTemplate<ChickenSimulator>";
 
   RCLCPP_DEBUG(logger, "Load library %s", library_name.c_str());
   auto loader = new class_loader::ClassLoader(library_name);

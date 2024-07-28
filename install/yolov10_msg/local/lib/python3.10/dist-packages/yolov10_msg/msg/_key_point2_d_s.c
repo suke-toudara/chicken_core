@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/yolov10_msg/rosidl_generator_py/yolov10_msg/msg/_key_point2_d_s.c

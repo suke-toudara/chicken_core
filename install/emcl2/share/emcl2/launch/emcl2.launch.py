@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/src/localization/emcl2_ros2/launch/emcl2.launch.py
+/home/suke/chicken_core/src/localization/emcl2_ros2/launch/emcl2.launch.py

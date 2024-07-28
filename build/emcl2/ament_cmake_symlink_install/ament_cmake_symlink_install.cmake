@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/suke/chicken_ws/install/emcl2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/suke/chicken_core/install/emcl2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/suke/chicken_ws/install/emcl2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/suke/chicken_core/install/emcl2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/suke/chicken_ws/install/emcl2/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/suke/chicken_core/install/emcl2/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/suke/chicken_ws/install/emcl2/${destination}")
+      set(destination "/home/suke/chicken_core/install/emcl2/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,70 +311,70 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(PROGRAMS "test/test.bash" "test/test_gui.bash" "DESTINATION" "lib/emcl2")
-ament_cmake_symlink_install_programs("/home/suke/chicken_ws/src/localization/emcl2_ros2" PROGRAMS "test/test.bash" "test/test_gui.bash" "DESTINATION" "lib/emcl2")
+ament_cmake_symlink_install_programs("/home/suke/chicken_core/src/localization/emcl2_ros2" PROGRAMS "test/test.bash" "test/test_gui.bash" "DESTINATION" "lib/emcl2")
 
 # install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/suke/chicken_ws/src/localization/emcl2_ros2" DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/suke/chicken_core/src/localization/emcl2_ros2" DIRECTORY "include/" "DESTINATION" "include")
 
 # install("TARGETS" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
-include("/home/suke/chicken_ws/build/emcl2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/suke/chicken_core/build/emcl2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "emcl2_node" "DESTINATION" "lib/emcl2")
-include("/home/suke/chicken_ws/build/emcl2/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/suke/chicken_core/build/emcl2/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "config" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_directory("/home/suke/chicken_ws/src/localization/emcl2_ros2" DIRECTORY "config" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_directory("/home/suke/chicken_core/src/localization/emcl2_ros2" DIRECTORY "config" "DESTINATION" "share/emcl2")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_directory("/home/suke/chicken_ws/src/localization/emcl2_ros2" DIRECTORY "launch" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_directory("/home/suke/chicken_core/src/localization/emcl2_ros2" DIRECTORY "launch" "DESTINATION" "share/emcl2")
 
 # install(DIRECTORY "test" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_directory("/home/suke/chicken_ws/src/localization/emcl2_ros2" DIRECTORY "test" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_directory("/home/suke/chicken_core/src/localization/emcl2_ros2" DIRECTORY "test" "DESTINATION" "share/emcl2")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/emcl2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/emcl2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/emcl2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/emcl2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/emcl2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/emcl2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/emcl2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/emcl2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/emcl2/environment")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/emcl2/environment")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/emcl2/environment")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/emcl2/environment")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/emcl2/environment")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/emcl2/environment")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/emcl2/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/emcl2/environment")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/emcl2/environment")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/emcl2/environment")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/emcl2/environment")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/emcl2/environment")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/emcl2/environment")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/emcl2/environment")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/emcl2")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/emcl2")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/emcl2")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/emcl2")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/emcl2")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/emcl2")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/emcl2")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/emcl2")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/emcl2")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/emcl2")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_index/share/ament_index/resource_index/packages/emcl2" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_index/share/ament_index/resource_index/packages/emcl2" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_index/share/ament_index/resource_index/packages/emcl2" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_index/share/ament_index/resource_index/packages/emcl2" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/emcl2/cmake")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/emcl2/cmake")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/emcl2/cmake")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/emcl2/cmake")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/emcl2/cmake")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/emcl2/cmake")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/emcl2/cmake")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/emcl2/cmake")
 
-# install(FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_core/emcl2Config.cmake" "/home/suke/chicken_ws/build/emcl2/ament_cmake_core/emcl2Config-version.cmake" "DESTINATION" "share/emcl2/cmake")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/build/emcl2/ament_cmake_core/emcl2Config.cmake" "/home/suke/chicken_ws/build/emcl2/ament_cmake_core/emcl2Config-version.cmake" "DESTINATION" "share/emcl2/cmake")
+# install(FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_core/emcl2Config.cmake" "/home/suke/chicken_core/build/emcl2/ament_cmake_core/emcl2Config-version.cmake" "DESTINATION" "share/emcl2/cmake")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/build/emcl2/ament_cmake_core/emcl2Config.cmake" "/home/suke/chicken_core/build/emcl2/ament_cmake_core/emcl2Config-version.cmake" "DESTINATION" "share/emcl2/cmake")
 
-# install(FILES "/home/suke/chicken_ws/src/localization/emcl2_ros2/package.xml" "DESTINATION" "share/emcl2")
-ament_cmake_symlink_install_files("/home/suke/chicken_ws/src/localization/emcl2_ros2" FILES "/home/suke/chicken_ws/src/localization/emcl2_ros2/package.xml" "DESTINATION" "share/emcl2")
+# install(FILES "/home/suke/chicken_core/src/localization/emcl2_ros2/package.xml" "DESTINATION" "share/emcl2")
+ament_cmake_symlink_install_files("/home/suke/chicken_core/src/localization/emcl2_ros2" FILES "/home/suke/chicken_core/src/localization/emcl2_ros2/package.xml" "DESTINATION" "share/emcl2")

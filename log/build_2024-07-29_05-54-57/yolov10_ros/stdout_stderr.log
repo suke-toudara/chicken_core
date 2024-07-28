@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating yolov10_ros.egg-info
+writing yolov10_ros.egg-info/PKG-INFO
+writing dependency_links to yolov10_ros.egg-info/dependency_links.txt
+writing entry points to yolov10_ros.egg-info/entry_points.txt
+writing requirements to yolov10_ros.egg-info/requires.txt
+writing top-level names to yolov10_ros.egg-info/top_level.txt
+writing manifest file 'yolov10_ros.egg-info/SOURCES.txt'
+reading manifest file 'yolov10_ros.egg-info/SOURCES.txt'
+writing manifest file 'yolov10_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10-ros.egg-link (link to .)
+Installing yolov10_node script to /home/suke/chicken_core/install/yolov10_ros/lib/yolov10_ros
+
+Installed /home/suke/chicken_core/build/yolov10_ros
+running symlink_data
+creating /home/suke/chicken_core/install/yolov10_ros/share/ament_index
+creating /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index
+creating /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index/packages
+symbolically linking /home/suke/chicken_core/build/yolov10_ros/resource/yolov10_ros -> /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index/packages
+symbolically linking /home/suke/chicken_core/build/yolov10_ros/package.xml -> /home/suke/chicken_core/install/yolov10_ros/share/yolov10_ros

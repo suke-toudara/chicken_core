@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/build/emcl2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+/home/suke/chicken_core/build/emcl2/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

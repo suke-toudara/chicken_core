@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/src/simulation/chicken_utils/include/chicken_utils/quaternion_utils.hpp
+/home/suke/chicken_core/src/simulation/chicken_utils/include/chicken_utils/quaternion_utils.hpp

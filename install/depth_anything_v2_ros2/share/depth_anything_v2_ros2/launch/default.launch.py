@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/build/depth_anything_v2_ros2/launch/default.launch.py
+/home/suke/chicken_core/build/depth_anything_v2_ros2/launch/default.launch.py

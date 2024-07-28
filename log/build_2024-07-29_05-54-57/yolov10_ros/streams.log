@@ -1,0 +1,26 @@
+[0.720s] Invoking command in '/home/suke/chicken_core/build/yolov10_ros': PYTHONPATH=/home/suke/chicken_core/build/yolov10_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/yolov10_ros/build --no-deps symlink_data
+[0.880s] running develop
+[0.880s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.881s]   warnings.warn(
+[0.988s] running egg_info
+[0.988s] creating yolov10_ros.egg-info
+[0.988s] writing yolov10_ros.egg-info/PKG-INFO
+[0.988s] writing dependency_links to yolov10_ros.egg-info/dependency_links.txt
+[0.988s] writing entry points to yolov10_ros.egg-info/entry_points.txt
+[0.988s] writing requirements to yolov10_ros.egg-info/requires.txt
+[0.988s] writing top-level names to yolov10_ros.egg-info/top_level.txt
+[0.988s] writing manifest file 'yolov10_ros.egg-info/SOURCES.txt'
+[0.989s] reading manifest file 'yolov10_ros.egg-info/SOURCES.txt'
+[0.989s] writing manifest file 'yolov10_ros.egg-info/SOURCES.txt'
+[0.990s] running build_ext
+[0.990s] Creating /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10-ros.egg-link (link to .)
+[0.991s] Installing yolov10_node script to /home/suke/chicken_core/install/yolov10_ros/lib/yolov10_ros
+[0.991s] 
+[0.991s] Installed /home/suke/chicken_core/build/yolov10_ros
+[0.991s] running symlink_data
+[0.991s] creating /home/suke/chicken_core/install/yolov10_ros/share/ament_index
+[0.991s] creating /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index
+[0.991s] creating /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index/packages
+[0.991s] symbolically linking /home/suke/chicken_core/build/yolov10_ros/resource/yolov10_ros -> /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index/packages
+[0.991s] symbolically linking /home/suke/chicken_core/build/yolov10_ros/package.xml -> /home/suke/chicken_core/install/yolov10_ros/share/yolov10_ros
+[1.011s] Invoked command in '/home/suke/chicken_core/build/yolov10_ros' returned '0': PYTHONPATH=/home/suke/chicken_core/build/yolov10_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/yolov10_ros/build --no-deps symlink_data

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/suke/chicken_ws/src/simulation/chicken_utils/src/quaternion_utils.cpp" "CMakeFiles/quaternion_utils.dir/src/quaternion_utils.cpp.o" "gcc" "CMakeFiles/quaternion_utils.dir/src/quaternion_utils.cpp.o.d"
+  "/home/suke/chicken_core/src/simulation/chicken_utils/src/quaternion_utils.cpp" "CMakeFiles/quaternion_utils.dir/src/quaternion_utils.cpp.o" "gcc" "CMakeFiles/quaternion_utils.dir/src/quaternion_utils.cpp.o.d"
   )
 
 # Targets to which this target links.

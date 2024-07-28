@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/yolov10_msg/rosidl_typesupport_introspection_c/yolov10_msg/msg/detail/vector2__rosidl_typesupport_introspection_c.h

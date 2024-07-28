@@ -1,0 +1,3 @@
+[console_scripts]
+yolov10_node = yolov10_ros.yolov10_node:main
+

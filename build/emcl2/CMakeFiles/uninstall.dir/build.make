@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suke/chicken_ws/src/localization/emcl2_ros2
+CMAKE_SOURCE_DIR = /home/suke/chicken_core/src/localization/emcl2_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suke/chicken_ws/build/emcl2
+CMAKE_BINARY_DIR = /home/suke/chicken_core/build/emcl2
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/suke/chicken_ws/build/emcl2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suke/chicken_ws/src/localization/emcl2_ros2 /home/suke/chicken_ws/src/localization/emcl2_ros2 /home/suke/chicken_ws/build/emcl2 /home/suke/chicken_ws/build/emcl2 /home/suke/chicken_ws/build/emcl2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suke/chicken_core/build/emcl2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suke/chicken_core/src/localization/emcl2_ros2 /home/suke/chicken_core/src/localization/emcl2_ros2 /home/suke/chicken_core/build/emcl2 /home/suke/chicken_core/build/emcl2 /home/suke/chicken_core/build/emcl2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/dwa_ros2/ament_cmake_environment_hooks/local_setup.sh

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suke/chicken_ws/src/localization/emcl2_ros2
+CMAKE_SOURCE_DIR = /home/suke/chicken_core/src/localization/emcl2_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suke/chicken_ws/build/emcl2
+CMAKE_BINARY_DIR = /home/suke/chicken_core/build/emcl2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suke/chicken_ws/build/emcl2/CMakeFiles /home/suke/chicken_ws/build/emcl2//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suke/chicken_core/build/emcl2/CMakeFiles /home/suke/chicken_core/build/emcl2//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suke/chicken_ws/build/emcl2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suke/chicken_core/build/emcl2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

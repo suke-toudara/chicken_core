@@ -1,0 +1,12 @@
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/Point2D.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/Vector2.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/Pose2D.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/BoundingBox2D.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/BoundingBox3D.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/Mask.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/KeyPoint2D.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/KeyPoint2DArray.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/KeyPoint3D.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/KeyPoint3DArray.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/Detection.idl
+/home/suke/chicken_core/build/yolov10_msg/rosidl_adapter/yolov10_msg:msg/DetectionArray.idl

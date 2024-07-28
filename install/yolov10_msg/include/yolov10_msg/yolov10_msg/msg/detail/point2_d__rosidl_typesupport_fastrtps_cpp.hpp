@@ -1,0 +1,1 @@
+/home/suke/chicken_core/build/yolov10_msg/rosidl_typesupport_fastrtps_cpp/yolov10_msg/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp

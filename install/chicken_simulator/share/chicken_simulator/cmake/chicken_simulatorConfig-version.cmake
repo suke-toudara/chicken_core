@@ -1,1 +1,1 @@
-/home/suke/chicken_ws/build/chicken_simulator/ament_cmake_core/chicken_simulatorConfig-version.cmake
+/home/suke/chicken_core/build/chicken_simulator/ament_cmake_core/chicken_simulatorConfig-version.cmake
