@@ -1,0 +1,61 @@
+[0.523s] Invoking command in '/home/suke/chicken_core/build/dwa_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/yolov10_ros:/home/suke/chicken_core/install/depth_anything_v2_ros2:/home/suke/chicken_core/install/cart_controller:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/planning/dwa_ros2 -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/dwa_ros2
+[0.532s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.622s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.642s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.643s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.647s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.655s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.666s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.701s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.722s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.813s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.887s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.936s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.939s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.940s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.139s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.194s] -- Configured cppcheck include dirs: /home/suke/chicken_core/src/planning/dwa_ros2/include
+[1.194s] -- Configured cppcheck exclude dirs and/or files: 
+[1.194s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.195s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.196s] -- Added test 'uncrustify' to check C / C++ code style
+[1.196s] -- Configured uncrustify additional arguments: 
+[1.196s] -- Added test 'xmllint' to check XML markup files
+[1.197s] -- Configuring done
+[1.204s] -- Generating done
+[1.205s] -- Build files have been written to: /home/suke/chicken_core/build/dwa_ros2
+[1.210s] Invoked command in '/home/suke/chicken_core/build/dwa_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/yolov10_ros:/home/suke/chicken_core/install/depth_anything_v2_ros2:/home/suke/chicken_core/install/cart_controller:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/planning/dwa_ros2 -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/dwa_ros2
+[1.212s] Invoking command in '/home/suke/chicken_core/build/dwa_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/yolov10_ros:/home/suke/chicken_core/install/depth_anything_v2_ros2:/home/suke/chicken_core/install/cart_controller:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/dwa_ros2 -- -j20 -l20
+[1.260s] [35m[1mConsolidate compiler generated dependencies of target dwa_ros2[0m
+[1.275s] [ 33%] [32mBuilding CXX object CMakeFiles/dwa_ros2.dir/src/obstacle_detector_component.cpp.o[0m
+[6.447s] [ 66%] [32m[1mLinking CXX shared library libdwa_ros2.so[0m
+[7.102s] [100%] Built target dwa_ros2
+[7.110s] Invoked command in '/home/suke/chicken_core/build/dwa_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/yolov10_ros:/home/suke/chicken_core/install/depth_anything_v2_ros2:/home/suke/chicken_core/install/cart_controller:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/dwa_ros2 -- -j20 -l20
+[7.147s] Invoking command in '/home/suke/chicken_core/build/dwa_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/yolov10_ros:/home/suke/chicken_core/install/depth_anything_v2_ros2:/home/suke/chicken_core/install/cart_controller:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/dwa_ros2
+[7.159s] -- Install configuration: ""
+[7.159s] -- Execute custom install script
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/lib/libdwa_ros2.so
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2//launch/dwa_ros2.launch.py
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2//config/dwa.rviz
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2//config/parameter.yaml
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/ament_index/resource_index/package_run_dependencies/dwa_ros2
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/ament_index/resource_index/parent_prefix_path/dwa_ros2
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/environment/ament_prefix_path.sh
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/environment/ament_prefix_path.dsv
+[7.160s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/environment/path.sh
+[7.161s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/environment/path.dsv
+[7.161s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/local_setup.bash
+[7.161s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/local_setup.sh
+[7.161s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/local_setup.zsh
+[7.161s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/local_setup.dsv
+[7.161s] -- Symlinking: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/package.dsv
+[7.168s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/ament_index/resource_index/packages/dwa_ros2
+[7.168s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/ament_index/resource_index/rclcpp_components/dwa_ros2
+[7.168s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/cmake/dwa_ros2Config.cmake
+[7.168s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/cmake/dwa_ros2Config-version.cmake
+[7.168s] -- Up-to-date symlink: /home/suke/chicken_core/install/dwa_ros2/share/dwa_ros2/package.xml
+[7.170s] Invoked command in '/home/suke/chicken_core/build/dwa_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/chicken_core/install/yolov10_ros:/home/suke/chicken_core/install/depth_anything_v2_ros2:/home/suke/chicken_core/install/cart_controller:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/dwa_ros2

@@ -1,0 +1,22 @@
+[0.776s] Invoking command in '/home/suke/chicken_core/build/cart_controller': PYTHONPATH=/home/suke/chicken_core/build/cart_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/cart_controller/build --no-deps symlink_data --force
+[0.977s] running develop
+[0.977s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.977s]   warnings.warn(
+[1.093s] running egg_info
+[1.093s] writing cart_controller.egg-info/PKG-INFO
+[1.093s] writing dependency_links to cart_controller.egg-info/dependency_links.txt
+[1.093s] writing entry points to cart_controller.egg-info/entry_points.txt
+[1.093s] writing requirements to cart_controller.egg-info/requires.txt
+[1.093s] writing top-level names to cart_controller.egg-info/top_level.txt
+[1.094s] reading manifest file 'cart_controller.egg-info/SOURCES.txt'
+[1.094s] writing manifest file 'cart_controller.egg-info/SOURCES.txt'
+[1.096s] running build_ext
+[1.096s] Creating /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart-controller.egg-link (link to .)
+[1.096s] Installing controller_node script to /home/suke/chicken_core/install/cart_controller/lib/cart_controller
+[1.096s] 
+[1.096s] Installed /home/suke/chicken_core/build/cart_controller
+[1.096s] running symlink_data
+[1.097s] symbolically linking /home/suke/chicken_core/build/cart_controller/resource/cart_controller -> /home/suke/chicken_core/install/cart_controller/share/ament_index/resource_index/packages
+[1.097s] symbolically linking /home/suke/chicken_core/build/cart_controller/package.xml -> /home/suke/chicken_core/install/cart_controller/share/cart_controller
+[1.097s] symbolically linking /home/suke/chicken_core/build/cart_controller/launch/cart_launch.py -> /home/suke/chicken_core/install/cart_controller/share/cart_controller
+[1.117s] Invoked command in '/home/suke/chicken_core/build/cart_controller' returned '0': PYTHONPATH=/home/suke/chicken_core/build/cart_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suke/chicken_core/build/cart_controller/build --no-deps symlink_data --force

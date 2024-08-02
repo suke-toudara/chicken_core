@@ -1,0 +1,21 @@
+[0.480s] Invoking command in '/home/suke/chicken_core/build/yolov10_cpp_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/yolov10_cpp_ros -- -j20 -l20
+[0.520s] Invoked command in '/home/suke/chicken_core/build/yolov10_cpp_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/yolov10_cpp_ros -- -j20 -l20
+[0.555s] Invoking command in '/home/suke/chicken_core/build/yolov10_cpp_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/yolov10_cpp_ros
+[0.562s] -- Install configuration: ""
+[0.562s] -- Execute custom install script
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/package_run_dependencies/yolov10_cpp_ros
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/parent_prefix_path/yolov10_cpp_ros
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/ament_prefix_path.sh
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/ament_prefix_path.dsv
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/path.sh
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/path.dsv
+[0.562s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.bash
+[0.563s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.sh
+[0.563s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.zsh
+[0.563s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.dsv
+[0.563s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/package.dsv
+[0.570s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/packages/yolov10_cpp_ros
+[0.570s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/cmake/yolov10_cpp_rosConfig.cmake
+[0.570s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/cmake/yolov10_cpp_rosConfig-version.cmake
+[0.570s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/package.xml
+[0.571s] Invoked command in '/home/suke/chicken_core/build/yolov10_cpp_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/yolov10_cpp_ros

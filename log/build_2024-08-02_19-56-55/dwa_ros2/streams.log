@@ -1,0 +1,45 @@
+[0.502s] Invoking command in '/home/suke/chicken_core/build/dwa_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/planning/dwa_ros2 -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/dwa_ros2
+[0.511s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.591s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.595s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.614s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.619s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.680s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.793s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.866s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.924s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.930s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.932s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.139s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.194s] -- Configured cppcheck include dirs: /home/suke/chicken_core/src/planning/dwa_ros2/include
+[1.194s] -- Configured cppcheck exclude dirs and/or files: 
+[1.194s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.194s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.196s] -- Added test 'uncrustify' to check C / C++ code style
+[1.196s] -- Configured uncrustify additional arguments: 
+[1.196s] -- Added test 'xmllint' to check XML markup files
+[1.197s] -- Configuring done
+[1.204s] -- Generating done
+[1.205s] -- Build files have been written to: /home/suke/chicken_core/build/dwa_ros2
+[1.211s] Invoked command in '/home/suke/chicken_core/build/dwa_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/planning/dwa_ros2 -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/dwa_ros2
+[1.213s] Invoking command in '/home/suke/chicken_core/build/dwa_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/dwa_ros2 -- -j20 -l20
+[1.248s] [35m[1mConsolidate compiler generated dependencies of target dwa_ros2[0m
+[1.264s] [ 66%] [32mBuilding CXX object CMakeFiles/dwa_ros2.dir/src/dwa_ros2.cpp.o[0m
+[1.264s] [ 66%] [32mBuilding CXX object CMakeFiles/dwa_ros2.dir/src/obstacle_detector_component.cpp.o[0m
+[1.582s] In file included from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:2[m[K:
+[1.583s] [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: そのようなファイルやディレクトリはありません
+[1.583s]    11 | #include [01;31m[K"visualization_msgs/msg/marker_array.hpp"[m[K
+[1.583s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.583s] compilation terminated.
+[1.586s] gmake[2]: *** [CMakeFiles/dwa_ros2.dir/build.make:90: CMakeFiles/dwa_ros2.dir/src/dwa_ros2.cpp.o] エラー 1
+[1.586s] gmake[2]: *** 未完了のジョブを待っています....
+[6.662s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_ros2.dir/all] エラー 2
+[6.662s] gmake: *** [Makefile:146: all] エラー 2
+[6.663s] Invoked command in '/home/suke/chicken_core/build/dwa_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/dwa_ros2 -- -j20 -l20

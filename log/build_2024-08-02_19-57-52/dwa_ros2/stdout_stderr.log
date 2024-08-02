@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_ros2[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dwa_ros2.dir/src/dwa_ros2.cpp.o[0m
+In file included from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:20[m[K,
+                 from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:2[m[K:
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:95:8:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Kdwa_ros2::DWA::[m[K’ on member ‘[01m[Kdraw_pred_path[m[K’ [[01;31m[K-fpermissive[m[K]
+   95 |   void [01;31m[KDWA[m[K::draw_pred_path(void);
+      |        [01;31m[K^~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:103:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+  103 |   rclcpp::Publisher<[01;31m[Kvisualization_msgs[m[K::msg::MarkerArray>::SharedPtr vis_pred_path_pub_;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:103:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  103 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray[01;31m[K>[m[K::SharedPtr vis_pred_path_pub_;
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:103:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  103 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::[01;31m[KSharedPtr[m[K vis_pred_path_pub_;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:103:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pred_path_pub_[m[K’ does not name a type
+  103 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr [01;31m[Kvis_pred_path_pub_[m[K;
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:[m[K In constructor ‘[01m[Kdwa_ros2::DWA::DWA(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pred_path_pub_[m[K’ was not declared in this scope
+   29 |         [01;31m[Kvis_pred_path_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("pred_path", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:29:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+   29 |         vis_pred_path_pub_ = this->create_publisher<[01;31m[Kvisualization_msgs[m[K::msg::MarkerArray>("pred_path", 10);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:29:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   29 |         vis_pred_path_pub_ = this->[01;31m[Kcreate_publisher<visualization_msgs::msg::MarkerArray>[m[K("pred_path", 10);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:29:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdwa_ros2::DWA::create_publisher<<expression error> >(const char [10], int)[m[K’
+   29 |         vis_pred_path_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::MarkerArray>("pred_path", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:29:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |         vis_pred_path_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::MarkerArray>("pred_path", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:[m[K In member function ‘[01m[Kvoid dwa_ros2::DWA::obstacleCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:47:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   47 |         for (int i = 0; [01;35m[Ki < msg->data.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dwa_ros2.dir/build.make:90: CMakeFiles/dwa_ros2.dir/src/dwa_ros2.cpp.o] エラー 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_ros2.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

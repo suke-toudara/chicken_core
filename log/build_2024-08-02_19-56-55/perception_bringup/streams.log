@@ -1,0 +1,31 @@
+[0.499s] Invoking command in '/home/suke/chicken_core/build/perception_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/perception/perception_bringup -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/perception_bringup
+[0.510s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.645s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.697s] -- Added test 'lint_cmake' to check CMake code style
+[0.698s] -- Added test 'xmllint' to check XML markup files
+[0.698s] -- Configuring done
+[0.700s] -- Generating done
+[0.700s] -- Build files have been written to: /home/suke/chicken_core/build/perception_bringup
+[0.702s] Invoked command in '/home/suke/chicken_core/build/perception_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/perception/perception_bringup -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/perception_bringup
+[0.703s] Invoking command in '/home/suke/chicken_core/build/perception_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/perception_bringup -- -j20 -l20
+[0.738s] Invoked command in '/home/suke/chicken_core/build/perception_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/perception_bringup -- -j20 -l20
+[0.762s] Invoking command in '/home/suke/chicken_core/build/perception_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/perception_bringup
+[0.768s] -- Install configuration: ""
+[0.768s] -- Execute custom install script
+[0.768s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/ament_index/resource_index/package_run_dependencies/perception_bringup
+[0.768s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/ament_index/resource_index/parent_prefix_path/perception_bringup
+[0.769s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/environment/ament_prefix_path.sh
+[0.769s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/environment/ament_prefix_path.dsv
+[0.769s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/environment/path.sh
+[0.769s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/environment/path.dsv
+[0.769s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/local_setup.bash
+[0.769s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/local_setup.sh
+[0.770s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/local_setup.zsh
+[0.770s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/local_setup.dsv
+[0.770s] -- Symlinking: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/package.dsv
+[0.777s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/ament_index/resource_index/packages/perception_bringup
+[0.777s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/cmake/perception_bringupConfig.cmake
+[0.777s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/cmake/perception_bringupConfig-version.cmake
+[0.777s] -- Up-to-date symlink: /home/suke/chicken_core/install/perception_bringup/share/perception_bringup/package.xml
+[0.779s] Invoked command in '/home/suke/chicken_core/build/perception_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/perception_bringup

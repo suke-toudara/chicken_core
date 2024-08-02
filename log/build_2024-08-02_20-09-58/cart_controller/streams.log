@@ -1,0 +1,35 @@
+[0.936s] Invoking command in '/home/suke/chicken_core/build/cart_controller': PYTHONPATH=/home/suke/chicken_core/build/cart_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/suke/chicken_core/build/cart_controller/build
+[1.125s] running develop
+[1.125s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.125s]   warnings.warn(
+[1.243s] Removing /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart-controller.egg-link (link to .)
+[1.267s] Invoked command in '/home/suke/chicken_core/build/cart_controller' returned '0': PYTHONPATH=/home/suke/chicken_core/build/cart_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/suke/chicken_core/build/cart_controller/build
+[1.268s] Invoking command in '/home/suke/chicken_core/src/control/cart_controller': PYTHONPATH=/home/suke/chicken_core/build/cart_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/cart_controller build --build-base /home/suke/chicken_core/build/cart_controller/build install --record /home/suke/chicken_core/build/cart_controller/install.log --single-version-externally-managed install_data --force
+[1.426s] running egg_info
+[1.426s] writing ../../../build/cart_controller/cart_controller.egg-info/PKG-INFO
+[1.427s] writing dependency_links to ../../../build/cart_controller/cart_controller.egg-info/dependency_links.txt
+[1.427s] writing entry points to ../../../build/cart_controller/cart_controller.egg-info/entry_points.txt
+[1.427s] writing requirements to ../../../build/cart_controller/cart_controller.egg-info/requires.txt
+[1.427s] writing top-level names to ../../../build/cart_controller/cart_controller.egg-info/top_level.txt
+[1.428s] reading manifest file '../../../build/cart_controller/cart_controller.egg-info/SOURCES.txt'
+[1.428s] adding license file 'LICENSE'
+[1.428s] writing manifest file '../../../build/cart_controller/cart_controller.egg-info/SOURCES.txt'
+[1.428s] running build
+[1.428s] running build_py
+[1.428s] running install
+[1.429s] running install_lib
+[1.429s] creating /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart_controller
+[1.429s] copying /home/suke/chicken_core/build/cart_controller/build/lib/cart_controller/__init__.py -> /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart_controller
+[1.429s] copying /home/suke/chicken_core/build/cart_controller/build/lib/cart_controller/controller_node.py -> /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart_controller
+[1.430s] byte-compiling /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart_controller/__init__.py to __init__.cpython-310.pyc
+[1.430s] byte-compiling /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart_controller/controller_node.py to controller_node.cpython-310.pyc
+[1.430s] running install_data
+[1.430s] copying resource/cart_controller -> /home/suke/chicken_core/install/cart_controller/share/ament_index/resource_index/packages
+[1.430s] copying package.xml -> /home/suke/chicken_core/install/cart_controller/share/cart_controller
+[1.430s] copying launch/cart_launch.py -> /home/suke/chicken_core/install/cart_controller/share/cart_controller
+[1.430s] running install_egg_info
+[1.431s] Copying ../../../build/cart_controller/cart_controller.egg-info to /home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages/cart_controller-0.0.0-py3.10.egg-info
+[1.431s] running install_scripts
+[1.445s] Installing controller_node script to /home/suke/chicken_core/install/cart_controller/lib/cart_controller
+[1.445s] writing list of installed files to '/home/suke/chicken_core/build/cart_controller/install.log'
+[1.465s] Invoked command in '/home/suke/chicken_core/src/control/cart_controller' returned '0': PYTHONPATH=/home/suke/chicken_core/build/cart_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/cart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/cart_controller build --build-base /home/suke/chicken_core/build/cart_controller/build install --record /home/suke/chicken_core/build/cart_controller/install.log --single-version-externally-managed install_data --force

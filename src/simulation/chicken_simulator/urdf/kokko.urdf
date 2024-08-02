@@ -123,7 +123,7 @@
   </joint>
 
   <!-- Hokuyo Laser -->
-  <link name="hokuyo_link">
+  <link name="laser_frame">
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
@@ -147,11 +147,11 @@
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
     </inertial>
   </link>
-  <joint name="hokuyo_joint" type="fixed">
+  <joint name="laser_frame_joint" type="fixed">
     <axis xyz="0 1 0" />
     <origin xyz="0.1 0 0.15" rpy="0 0 0"/>
     <parent link="base_link"/>
-    <child link="hokuyo_link"/>
+    <child link="laser_frame"/>
   </joint>
 
   <!-- =============== Gazebo =============== -->
@@ -212,7 +212,7 @@
   </gazebo>
 
   <!-- lidar plugin -->
-  <gazebo reference="hokuyo_link">
+  <gazebo reference="laser_frame">
     <sensor name="gazebo_lidar" type="ray">
       <always_on>true</always_on>
       <visualize>false</visualize>
@@ -222,7 +222,7 @@
           <remapping>~/out:=scan</remapping>
         </ros>
         <output_type>sensor_msgs/LaserScan</output_type>
-        <frame_name>hokuyo_link</frame_name>
+        <frame_name>laser_frame</frame_name>
       </plugin>
       <ray>
         <scan>

@@ -1,0 +1,49 @@
+[0.897s] Invoking command in '/home/suke/chicken_core/build/depth_anything_v2_ros2': PYTHONPATH=/home/suke/chicken_core/build/depth_anything_v2_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/suke/chicken_core/build/depth_anything_v2_ros2/build
+[1.152s] running develop
+[1.152s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.152s]   warnings.warn(
+[1.320s] Removing /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth-anything-v2-ros2.egg-link (link to .)
+[1.339s] Invoked command in '/home/suke/chicken_core/build/depth_anything_v2_ros2' returned '0': PYTHONPATH=/home/suke/chicken_core/build/depth_anything_v2_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/suke/chicken_core/build/depth_anything_v2_ros2/build
+[1.341s] Invoking command in '/home/suke/chicken_core/src/perception/depth_anything_v2_ros2': PYTHONPATH=/home/suke/chicken_core/build/depth_anything_v2_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/depth_anything_v2_ros2 build --build-base /home/suke/chicken_core/build/depth_anything_v2_ros2/build install --record /home/suke/chicken_core/build/depth_anything_v2_ros2/install.log --single-version-externally-managed install_data --force
+[1.501s] running egg_info
+[1.502s] writing ../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/PKG-INFO
+[1.502s] writing dependency_links to ../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/dependency_links.txt
+[1.502s] writing entry points to ../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/entry_points.txt
+[1.502s] writing requirements to ../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/requires.txt
+[1.502s] writing top-level names to ../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/top_level.txt
+[1.503s] reading manifest file '../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/SOURCES.txt'
+[1.503s] adding license file 'LICENSE'
+[1.504s] writing manifest file '../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info/SOURCES.txt'
+[1.504s] running build
+[1.504s] running build_py
+[1.504s] running install
+[1.504s] running install_lib
+[1.504s] creating /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth_anything_v2_ros2
+[1.504s] copying /home/suke/chicken_core/build/depth_anything_v2_ros2/build/lib/depth_anything_v2_ros2/depth_anything_v2_ros2.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth_anything_v2_ros2
+[1.504s] copying /home/suke/chicken_core/build/depth_anything_v2_ros2/build/lib/depth_anything_v2_ros2/__init__.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth_anything_v2_ros2
+[1.505s] byte-compiling /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth_anything_v2_ros2/depth_anything_v2_ros2.py to depth_anything_v2_ros2.cpython-310.pyc
+[1.505s] byte-compiling /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth_anything_v2_ros2/__init__.py to __init__.cpython-310.pyc
+[1.505s] running install_data
+[1.506s] copying resource/depth_anything_v2_ros2 -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/ament_index/resource_index/packages
+[1.506s] copying depth_anything_v2/depth_anything_v2/dpt.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/attention.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/mlp.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/block.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/__init__.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/patch_embed.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/swiglu_ffn.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/layer_scale.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/dinov2_layers/drop_path.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/dinov2_layers
+[1.506s] copying depth_anything_v2/depth_anything_v2/util/blocks.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util
+[1.506s] copying depth_anything_v2/depth_anything_v2/util/transform.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2/depth_anything_v2/depth_anything_v2/util
+[1.507s] copying package.xml -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2
+[1.507s] copying launch/default.launch.py -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/launch
+[1.507s] copying models/depth_anything_v2_vits.pth -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/models
+[1.558s] copying config/params.yaml -> /home/suke/chicken_core/install/depth_anything_v2_ros2/share/depth_anything_v2_ros2/config
+[1.559s] running install_egg_info
+[1.560s] Copying ../../../build/depth_anything_v2_ros2/depth_anything_v2_ros2.egg-info to /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages/depth_anything_v2_ros2-1.0.0-py3.10.egg-info
+[1.560s] running install_scripts
+[1.573s] Installing depth_anything_v2_ros2 script to /home/suke/chicken_core/install/depth_anything_v2_ros2/lib/depth_anything_v2_ros2
+[1.574s] writing list of installed files to '/home/suke/chicken_core/build/depth_anything_v2_ros2/install.log'
+[1.588s] Invoked command in '/home/suke/chicken_core/src/perception/depth_anything_v2_ros2' returned '0': PYTHONPATH=/home/suke/chicken_core/build/depth_anything_v2_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/depth_anything_v2_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/depth_anything_v2_ros2 build --build-base /home/suke/chicken_core/build/depth_anything_v2_ros2/build install --record /home/suke/chicken_core/build/depth_anything_v2_ros2/install.log --single-version-externally-managed install_data --force

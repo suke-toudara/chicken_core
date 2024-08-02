@@ -1,0 +1,9 @@
+In file included from [01m[K/home/suke/chicken_core/src/planning/dwa_ros2/src/dwa_ros2.cpp:2[m[K:
+[01m[K/home/suke/chicken_core/src/planning/dwa_ros2/include/dwa_ros2.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker_array.hpp: そのようなファイルやディレクトリはありません
+   11 | #include [01;31m[K"visualization_msgs/msg/marker_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dwa_ros2.dir/build.make:90: CMakeFiles/dwa_ros2.dir/src/dwa_ros2.cpp.o] エラー 1
+gmake[2]: *** 未完了のジョブを待っています....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dwa_ros2.dir/all] エラー 2
+gmake: *** [Makefile:146: all] エラー 2

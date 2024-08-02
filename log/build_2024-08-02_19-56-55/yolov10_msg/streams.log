@@ -1,0 +1,346 @@
+[0.500s] Invoking command in '/home/suke/chicken_core/build/yolov10_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/perception/yolov10_msg -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/yolov10_msg
+[0.508s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.594s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.602s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.642s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.699s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.012s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.564s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.587s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.587s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.587s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.661s] -- Configuring done
+[1.693s] -- Generating done
+[1.694s] -- Build files have been written to: /home/suke/chicken_core/build/yolov10_msg
+[1.699s] Invoked command in '/home/suke/chicken_core/build/yolov10_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/perception/yolov10_msg -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/yolov10_msg
+[1.700s] Invoking command in '/home/suke/chicken_core/build/yolov10_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/yolov10_msg -- -j20 -l20
+[1.739s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_generator_c[0m
+[1.743s] [  0%] Built target yolov10_msg__cpp
+[1.749s] [  0%] Built target ament_cmake_python_symlink_yolov10_msg
+[1.752s] [ 12%] Built target yolov10_msg__rosidl_generator_c
+[1.753s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_cpp[0m
+[1.759s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_introspection_cpp[0m
+[1.759s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_fastrtps_cpp[0m
+[1.766s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_c[0m
+[1.766s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_introspection_c[0m
+[1.767s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_fastrtps_c[0m
+[1.769s] [ 24%] Built target yolov10_msg__rosidl_typesupport_cpp
+[1.781s] [ 36%] Built target yolov10_msg__rosidl_typesupport_introspection_cpp
+[1.782s] [ 48%] Built target yolov10_msg__rosidl_typesupport_c
+[1.783s] [ 60%] Built target yolov10_msg__rosidl_typesupport_introspection_c
+[1.784s] [ 71%] Built target yolov10_msg__rosidl_typesupport_fastrtps_cpp
+[1.792s] [ 83%] Built target yolov10_msg__rosidl_typesupport_fastrtps_c
+[1.817s] [ 83%] Built target yolov10_msg
+[1.838s] [ 84%] Built target yolov10_msg__py
+[1.848s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_generator_py[0m
+[1.867s] [ 86%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_mask_s.c.o[0m
+[1.867s] [ 86%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_point2_d_s.c.o[0m
+[1.867s] [ 87%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_pose2_d_s.c.o[0m
+[1.868s] [ 87%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_key_point2_d_s.c.o[0m
+[1.868s] [ 88%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_vector2_s.c.o[0m
+[1.868s] [ 89%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_key_point2_d_array_s.c.o[0m
+[1.868s] [ 90%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_bounding_box3_d_s.c.o[0m
+[1.869s] [ 91%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_key_point3_d_s.c.o[0m
+[1.870s] [ 91%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_key_point3_d_array_s.c.o[0m
+[1.870s] [ 92%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_bounding_box2_d_s.c.o[0m
+[1.873s] [ 93%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_detection_array_s.c.o[0m
+[1.876s] [ 94%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_generator_py.dir/rosidl_generator_py/yolov10_msg/msg/_detection_s.c.o[0m
+[1.916s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/yolov10_msg/libyolov10_msg__rosidl_generator_py.so[0m
+[1.954s] [ 95%] Built target yolov10_msg__rosidl_generator_py
+[1.963s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.968s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_c__pyext[0m
+[1.968s] [35m[1mConsolidate compiler generated dependencies of target yolov10_msg__rosidl_typesupport_introspection_c__pyext[0m
+[1.974s] [ 96%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov10_msg/_yolov10_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.976s] running egg_info
+[1.977s] writing yolov10_msg.egg-info/PKG-INFO
+[1.977s] writing dependency_links to yolov10_msg.egg-info/dependency_links.txt
+[1.977s] writing top-level names to yolov10_msg.egg-info/top_level.txt
+[1.979s] reading manifest file 'yolov10_msg.egg-info/SOURCES.txt'
+[1.979s] writing manifest file 'yolov10_msg.egg-info/SOURCES.txt'
+[1.984s] [ 96%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov10_msg/_yolov10_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[1.984s] [ 97%] [32mBuilding C object CMakeFiles/yolov10_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov10_msg/_yolov10_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.987s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/yolov10_msg/yolov10_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.997s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/yolov10_msg/yolov10_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.998s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolov10_msg/yolov10_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.999s] [100%] Built target ament_cmake_python_build_yolov10_msg_egg
+[2.019s] [100%] Built target yolov10_msg__rosidl_typesupport_fastrtps_c__pyext
+[2.029s] [100%] Built target yolov10_msg__rosidl_typesupport_c__pyext
+[2.030s] [100%] Built target yolov10_msg__rosidl_typesupport_introspection_c__pyext
+[2.039s] Invoked command in '/home/suke/chicken_core/build/yolov10_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/yolov10_msg -- -j20 -l20
+[2.325s] Invoking command in '/home/suke/chicken_core/build/yolov10_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/yolov10_msg
+[2.332s] -- Install configuration: ""
+[2.333s] -- Execute custom install script
+[2.333s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/ament_index/resource_index/rosidl_interfaces/yolov10_msg
+[2.333s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/bounding_box2_d.h
+[2.333s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/bounding_box3_d.h
+[2.333s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__functions.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__struct.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__type_support.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__functions.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__struct.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__type_support.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__functions.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__struct.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__type_support.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__functions.h
+[2.334s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__struct.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__type_support.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__functions.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__struct.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__type_support.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__functions.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__struct.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__type_support.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__functions.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__struct.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__type_support.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__functions.h
+[2.335s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__struct.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__type_support.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__functions.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__struct.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__type_support.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__functions.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__struct.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__type_support.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__functions.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__struct.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__type_support.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__functions.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__struct.h
+[2.336s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__type_support.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detection.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detection_array.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point2_d.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point2_d_array.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point3_d.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point3_d_array.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/mask.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/point2_d.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/pose2_d.h
+[2.337s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/rosidl_generator_c__visibility_control.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/vector2.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/library_path.sh
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/library_path.dsv
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__rosidl_typesupport_fastrtps_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_c.h
+[2.338s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__rosidl_typesupport_introspection_c.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/bounding_box2_d.hpp
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/bounding_box3_d.hpp
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__builder.hpp
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__struct.hpp
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__traits.hpp
+[2.339s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__builder.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__struct.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__traits.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__builder.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__struct.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__traits.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__builder.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__struct.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__traits.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__builder.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__struct.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__traits.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__builder.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__struct.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__traits.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__builder.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__struct.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__traits.hpp
+[2.340s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__builder.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__struct.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__traits.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__builder.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__struct.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__traits.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__builder.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__struct.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__traits.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__builder.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__struct.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__traits.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__builder.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__struct.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__traits.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detection.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detection_array.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point2_d.hpp
+[2.341s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point2_d_array.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point3_d.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/key_point3_d_array.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/mask.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/point2_d.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/pose2_d.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/vector2.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.342s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__rosidl_typesupport_fastrtps_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__rosidl_typesupport_fastrtps_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[2.343s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/key_point3_d_array__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/mask__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/include/yolov10_msg/yolov10_msg/msg/detail/vector2__rosidl_typesupport_introspection_cpp.hpp
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/pythonpath.sh
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/pythonpath.dsv
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[2.344s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg-0.0.0-py3.10.egg-info/top_level.txt
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/__init__.py
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/_yolov10_msg_s.ep.rosidl_typesupport_c.c
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/_yolov10_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/_yolov10_msg_s.ep.rosidl_typesupport_introspection_c.c
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/libyolov10_msg__rosidl_generator_py.so
+[2.345s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/__init__.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_bounding_box2_d.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_bounding_box2_d_s.c
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_bounding_box3_d.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_bounding_box3_d_s.c
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_detection.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_detection_array.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_detection_array_s.c
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_detection_s.c
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point2_d.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point2_d_array.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point2_d_array_s.c
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point2_d_s.c
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point3_d.py
+[2.346s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point3_d_array.py
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point3_d_array_s.c
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_key_point3_d_s.c
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_mask.py
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_mask_s.c
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_point2_d.py
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_point2_d_s.c
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_pose2_d.py
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_pose2_d_s.c
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_vector2.py
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg/_vector2_s.c
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/yolov10_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/yolov10_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.347s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/yolov10_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/yolov10_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/yolov10_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/yolov10_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Point2D.idl
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Vector2.idl
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Pose2D.idl
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/BoundingBox2D.idl
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/BoundingBox3D.idl
+[2.348s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Mask.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint2D.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint2DArray.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint3D.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint3DArray.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Detection.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/DetectionArray.idl
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Point2D.msg
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Vector2.msg
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Pose2D.msg
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/BoundingBox2D.msg
+[2.349s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/BoundingBox3D.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Mask.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint2D.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint2DArray.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint3D.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/KeyPoint3DArray.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/Detection.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/msg/DetectionArray.msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/ament_index/resource_index/package_run_dependencies/yolov10_msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/ament_index/resource_index/parent_prefix_path/yolov10_msg
+[2.350s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/ament_prefix_path.sh
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/ament_prefix_path.dsv
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/path.sh
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/environment/path.dsv
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/local_setup.bash
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/local_setup.sh
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/local_setup.zsh
+[2.351s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/local_setup.dsv
+[2.351s] -- Symlinking: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/package.dsv
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/ament_index/resource_index/packages/yolov10_msg
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/rosidl_cmake-extras.cmake
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.361s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.362s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msgConfig.cmake
+[2.362s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msgConfig-version.cmake
+[2.362s] -- Up-to-date symlink: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/package.xml
+[2.362s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_generator_c.so
+[2.362s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_typesupport_fastrtps_c.so
+[2.362s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_typesupport_introspection_c.so
+[2.363s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_typesupport_c.so
+[2.363s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.363s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_typesupport_introspection_cpp.so
+[2.363s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_typesupport_cpp.so
+[2.387s] Listing '/home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg'...
+[2.387s] Compiling '/home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/__init__.py'...
+[2.387s] Listing '/home/suke/chicken_core/install/yolov10_msg/local/lib/python3.10/dist-packages/yolov10_msg/msg'...
+[2.390s] -- Installing: /home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_generator_py.so
+[2.391s] -- Set runtime path of "/home/suke/chicken_core/install/yolov10_msg/lib/libyolov10_msg__rosidl_generator_py.so" to ""
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_generator_cExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_generator_cExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_cExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_generator_cppExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_cppExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/yolov10_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_generator_pyExport.cmake
+[2.391s] -- Up-to-date: /home/suke/chicken_core/install/yolov10_msg/share/yolov10_msg/cmake/export_yolov10_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.393s] Invoked command in '/home/suke/chicken_core/build/yolov10_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/kalman_filter_localization:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/yolov10_msg

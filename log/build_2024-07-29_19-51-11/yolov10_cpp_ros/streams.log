@@ -1,0 +1,44 @@
+[0.478s] Invoking command in '/home/suke/chicken_core/build/yolov10_cpp_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/perception/yolov10_cpp_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/yolov10_cpp_ros
+[0.525s] -- The C compiler identification is GNU 11.4.0
+[0.569s] -- The CXX compiler identification is GNU 11.4.0
+[0.579s] -- Detecting C compiler ABI info
+[0.628s] -- Detecting C compiler ABI info - done
+[0.634s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.635s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.637s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.696s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.697s] -- Detecting CXX compile features
+[0.697s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.849s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.914s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.998s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.065s] -- Added test 'lint_cmake' to check CMake code style
+[1.066s] -- Added test 'xmllint' to check XML markup files
+[1.068s] -- Configuring done
+[1.070s] -- Generating done
+[1.070s] -- Build files have been written to: /home/suke/chicken_core/build/yolov10_cpp_ros
+[1.086s] Invoked command in '/home/suke/chicken_core/build/yolov10_cpp_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake /home/suke/chicken_core/src/perception/yolov10_cpp_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suke/chicken_core/install/yolov10_cpp_ros
+[1.087s] Invoking command in '/home/suke/chicken_core/build/yolov10_cpp_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/yolov10_cpp_ros -- -j20 -l20
+[1.116s] Invoked command in '/home/suke/chicken_core/build/yolov10_cpp_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --build /home/suke/chicken_core/build/yolov10_cpp_ros -- -j20 -l20
+[1.137s] Invoking command in '/home/suke/chicken_core/build/yolov10_cpp_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/yolov10_cpp_ros
+[1.143s] -- Install configuration: ""
+[1.144s] -- Execute custom install script
+[1.144s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/package_run_dependencies/yolov10_cpp_ros
+[1.151s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/parent_prefix_path/yolov10_cpp_ros
+[1.158s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/ament_prefix_path.sh
+[1.165s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/ament_prefix_path.dsv
+[1.171s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/path.sh
+[1.178s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/environment/path.dsv
+[1.184s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.bash
+[1.191s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.sh
+[1.198s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.zsh
+[1.205s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/local_setup.dsv
+[1.213s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/package.dsv
+[1.220s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/ament_index/resource_index/packages/yolov10_cpp_ros
+[1.228s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/cmake/yolov10_cpp_rosConfig.cmake
+[1.235s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/cmake/yolov10_cpp_rosConfig-version.cmake
+[1.242s] -- Symlinking: /home/suke/chicken_core/install/yolov10_cpp_ros/share/yolov10_cpp_ros/package.xml
+[1.251s] Invoked command in '/home/suke/chicken_core/build/yolov10_cpp_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suke/ouxt_automation/robotx_ws/install/opencv_tests:/home/suke/ouxt_automation/robotx_ws/install/detic_onnx_ros2:/opt/ros/humble /usr/bin/cmake --install /home/suke/chicken_core/build/yolov10_cpp_ros

@@ -1,0 +1,44 @@
+[0.836s] Invoking command in '/home/suke/chicken_core/build/yolov10_ros': PYTHONPATH=/home/suke/chicken_core/build/yolov10_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/suke/chicken_core/build/yolov10_ros/build
+[0.997s] running develop
+[0.998s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.998s]   warnings.warn(
+[1.112s] Removing /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10-ros.egg-link (link to .)
+[1.131s] Invoked command in '/home/suke/chicken_core/build/yolov10_ros' returned '0': PYTHONPATH=/home/suke/chicken_core/build/yolov10_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/suke/chicken_core/build/yolov10_ros/build
+[1.132s] Invoking command in '/home/suke/chicken_core/src/perception/yolov10_ros': PYTHONPATH=/home/suke/chicken_core/build/yolov10_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov10_ros build --build-base /home/suke/chicken_core/build/yolov10_ros/build install --record /home/suke/chicken_core/build/yolov10_ros/install.log --single-version-externally-managed install_data --force
+[1.292s] running egg_info
+[1.292s] writing ../../../build/yolov10_ros/yolov10_ros.egg-info/PKG-INFO
+[1.292s] writing dependency_links to ../../../build/yolov10_ros/yolov10_ros.egg-info/dependency_links.txt
+[1.292s] writing entry points to ../../../build/yolov10_ros/yolov10_ros.egg-info/entry_points.txt
+[1.292s] writing requirements to ../../../build/yolov10_ros/yolov10_ros.egg-info/requires.txt
+[1.292s] writing top-level names to ../../../build/yolov10_ros/yolov10_ros.egg-info/top_level.txt
+[1.293s] reading manifest file '../../../build/yolov10_ros/yolov10_ros.egg-info/SOURCES.txt'
+[1.294s] writing manifest file '../../../build/yolov10_ros/yolov10_ros.egg-info/SOURCES.txt'
+[1.294s] running build
+[1.294s] running build_py
+[1.294s] creating /home/suke/chicken_core/build/yolov10_ros/build
+[1.294s] creating /home/suke/chicken_core/build/yolov10_ros/build/lib
+[1.294s] creating /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros
+[1.294s] copying yolov10_ros/export_model.py -> /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros
+[1.295s] copying yolov10_ros/__init__.py -> /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros
+[1.295s] copying yolov10_ros/yolov10_onnx_node.py -> /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros
+[1.295s] copying yolov10_ros/yolov10_node.py -> /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros
+[1.295s] running install
+[1.296s] running install_lib
+[1.297s] creating /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros
+[1.297s] copying /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros/export_model.py -> /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros
+[1.297s] copying /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros/__init__.py -> /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros
+[1.297s] copying /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros/yolov10_onnx_node.py -> /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros
+[1.297s] copying /home/suke/chicken_core/build/yolov10_ros/build/lib/yolov10_ros/yolov10_node.py -> /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros
+[1.297s] byte-compiling /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros/export_model.py to export_model.cpython-310.pyc
+[1.298s] byte-compiling /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros/__init__.py to __init__.cpython-310.pyc
+[1.298s] byte-compiling /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros/yolov10_onnx_node.py to yolov10_onnx_node.cpython-310.pyc
+[1.298s] byte-compiling /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros/yolov10_node.py to yolov10_node.cpython-310.pyc
+[1.300s] running install_data
+[1.300s] copying resource/yolov10_ros -> /home/suke/chicken_core/install/yolov10_ros/share/ament_index/resource_index/packages
+[1.300s] copying package.xml -> /home/suke/chicken_core/install/yolov10_ros/share/yolov10_ros
+[1.300s] running install_egg_info
+[1.302s] Copying ../../../build/yolov10_ros/yolov10_ros.egg-info to /home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages/yolov10_ros-0.0.0-py3.10.egg-info
+[1.303s] running install_scripts
+[1.324s] Installing yolov10_node script to /home/suke/chicken_core/install/yolov10_ros/lib/yolov10_ros
+[1.325s] writing list of installed files to '/home/suke/chicken_core/build/yolov10_ros/install.log'
+[1.347s] Invoked command in '/home/suke/chicken_core/src/perception/yolov10_ros' returned '0': PYTHONPATH=/home/suke/chicken_core/build/yolov10_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suke/chicken_core/install/yolov10_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov10_ros build --build-base /home/suke/chicken_core/build/yolov10_ros/build install --record /home/suke/chicken_core/build/yolov10_ros/install.log --single-version-externally-managed install_data --force
