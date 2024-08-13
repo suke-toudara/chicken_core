@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/perception_bringup/ament_cmake_core/perception_bringupConfig-version.cmake

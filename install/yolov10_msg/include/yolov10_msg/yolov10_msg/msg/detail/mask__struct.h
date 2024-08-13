@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/rosidl_generator_c/yolov10_msg/msg/detail/mask__struct.h

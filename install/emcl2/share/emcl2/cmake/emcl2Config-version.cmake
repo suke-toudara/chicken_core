@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/emcl2/ament_cmake_core/emcl2Config-version.cmake

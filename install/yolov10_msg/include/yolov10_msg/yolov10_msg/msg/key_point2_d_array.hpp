@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/rosidl_generator_cpp/yolov10_msg/msg/key_point2_d_array.hpp

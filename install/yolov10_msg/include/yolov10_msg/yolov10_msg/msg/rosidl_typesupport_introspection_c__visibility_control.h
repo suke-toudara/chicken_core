@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/rosidl_typesupport_introspection_c/yolov10_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h

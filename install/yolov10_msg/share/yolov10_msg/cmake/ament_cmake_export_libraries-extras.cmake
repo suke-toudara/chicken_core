@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

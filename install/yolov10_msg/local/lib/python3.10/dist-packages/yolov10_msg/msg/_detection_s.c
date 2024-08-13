@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/rosidl_generator_py/yolov10_msg/msg/_detection_s.c

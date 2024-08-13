@@ -1,1 +1,0 @@
-/home/suke/chicken_core/src/simulation/chicken_simulator/launch/chicken_simulator_bringup.launch.py

@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/rosidl_typesupport_introspection_cpp/yolov10_msg/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp

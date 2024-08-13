@@ -1,1 +1,0 @@
-/home/suke/chicken_core/build/yolov10_msg/rosidl_cmake/rosidl_cmake-extras.cmake
