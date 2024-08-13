@@ -1,3 +1,0 @@
-[console_scripts]
-depth_anything_v2_ros2 = depth_anything_v2_ros2.depth_anything_v2_ros2:main
-
