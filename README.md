@@ -1,1 +1,4 @@
 # chicken_core
+
+
+## dependence 
